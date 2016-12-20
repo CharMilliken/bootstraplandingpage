@@ -1,0 +1,54 @@
+body{
+    font-family: 'Palanquin', sans-serif;
+    color: white;    
+    overflow-x: hidden;   
+}
+.btn{
+    border: none;
+    border-radius: 0;
+    color: white;
+    background-color: darkorange;
+    text-shadow: none;
+}
+.landing{
+  min-width: 100vw;
+  height: 100vh;
+  background: url(/file/location/img/bgheader.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logoMain{
+    padding-bottom: 1%;
+    width: 100%;
+    height: 30%;
+    background: url(/file/location/img/logo.png) no-repeat center;     
+}
+.landingText{
+    font-size: 20px;
+    padding: 1%;
+}
+.btnLand{
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    .landing{
+        width: 100vw;
+        height: 100vh;
+        padding: none;
+        margin: none;
+        
+    }
+    .logoMain{
+         background: url(/file/location/img/logomobile.png) no-repeat center;  
+         height: 20%;
+    }
+}
